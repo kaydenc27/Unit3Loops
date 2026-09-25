@@ -12,7 +12,7 @@
 // Use a for loop and .push() to build the array one number at a time.
 function getNumbersInRange(start, end) {
   // TODO: your code here
-
+  
 }
 
 console.log(getNumbersInRange(1, 5));  // [1, 2, 3, 4, 5]
