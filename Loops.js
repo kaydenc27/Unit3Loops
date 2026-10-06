@@ -47,7 +47,12 @@ console.log(sumRange(4, 4));   // 4
 // Use a while loop, not a for loop.
 function countdown(n) {
   // TODO: your code here
-
+  let result = []
+  while (n > 0) {
+    result.push(n);
+    n = n - 1;
+  }
+  return result;
 }
 
 console.log(countdown(5)); // [5, 4, 3, 2, 1]
