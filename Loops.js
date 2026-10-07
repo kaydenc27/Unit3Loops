@@ -10,7 +10,7 @@
 // ---------- Problem 1: Range Builder ----------
 // Return an array of every integer from start to end, inclusive.
 // Use a for loop and .push() to build the array one number at a time.
-/* function getNumbersInRange(start, end) {
+function getNumbersInRange(start, end) {
   // TODO: your code here
   let result = []
   for (let i = start; i <= end; i++){
@@ -21,7 +21,7 @@
 
 console.log(getNumbersInRange(1, 5));  // [1, 2, 3, 4, 5]
 console.log(getNumbersInRange(10, 10)); // [10]
-console.log(getNumbersInRange(3, 8));  // [3, 4, 5, 6, 7, 8] */
+console.log(getNumbersInRange(3, 8));  // [3, 4, 5, 6, 7, 8]
 
 
 // ---------- Problem 2: Sum a Range ----------
@@ -67,7 +67,10 @@ console.log(countdown(8)); // [8, 7, 6, 5, 4, 3, 2, 1]
 // str[i] or str.charAt(i).
 function countVowels(str) {
   // TODO: your code here
-
+  for() {
+  let vowels = 0;
+  length = str.length
+  }
 }
 
 console.log(countVowels("hello"));      // 2
