@@ -33,4 +33,4 @@ function slots(Q, M1, M2, M3) {
     return Rolls;
 }
 
-console.log(slots(49, 3, 10, 4))
+console.log(slots(48, 3, 10, 4))
